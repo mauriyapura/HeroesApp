@@ -2,6 +2,8 @@ import React, { useMemo } from 'react'
 import { Redirect, useParams } from 'react-router'
 import { getHeroById } from '../../selectors/getHeroById';
 
+//import batman from '../../../public/assets/heroes/dc-batman.jpg'
+
 export const HeroScreen = ({history}) => {
 
     const {heroeId} = useParams();
